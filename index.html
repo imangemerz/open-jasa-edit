@@ -1,0 +1,140 @@
+ <div class="header">
+    <h1 class="neon">
+        ⚡ Mann Force X ⚡
+        <span class="icon"></span>
+    </h1>
+</div>
+
+<style>
+.neon {
+    font-size: 3em;
+    color: #fff;
+    text-align: center;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #ff0000,
+        0 0 20px #ff0000,
+        0 0 40px #ff0000,
+        0 0 80px #ff0000;
+    animation: flicker 1.5s infinite alternate;
+}
+.icon {
+    margin-left: 10px;
+    animation: bounce 1s infinite alternate;
+}
+@keyframes flicker {
+    0% { text-shadow: 0 0 5px #fff, 0 0 10px #ff0000, 0 0 20px #ff0000; }
+    50% { text-shadow: 0 0 2px #fff, 0 0 5px #ff0000, 0 0 10px #ff0000; }
+    100% { text-shadow: 0 0 5px #fff, 0 0 10px #ff0000, 0 0 20px #ff0000; }
+}
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+</style>
+ <!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa Edit By Mann Force</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a1a, #111111);
+            color: #fff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: rgba(0,0,0,0.7);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(255,255,255,0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            color: #fff;
+            text-shadow: 2px 2px 10px #d9534f;
+        }
+        .service-list {
+            list-style: none;
+            padding: 0;
+        }
+        .service-list li {
+            background-color: rgba(255,255,255,0.05);
+            margin: 10px 0;
+            padding: 15px 20px;
+            border-left: 5px solid #d9534f;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px #000;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        .service-list li:hover {
+            transform: translateX(10px);
+            background-color: rgba(217,83,79,0.2);
+        }
+        .info {
+            margin-top: 30px;
+            background-color: rgba(255,255,255,0.05);
+            padding: 20px;
+            border-radius: 10px;
+            line-height: 1.6;
+            text-shadow: 1px 1px 2px #000;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 25px;
+        }
+        .contact a {
+            display: inline-block;
+            background-color: #25d366;
+            color: #fff;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .contact a:hover {
+            background-color: #128c7e;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>JASA EDIT BY MANN FORCE</h1>
+        </div>
+        <ul class="service-list">
+            <li>JJ BANGERS RM2.50 | 1 Hari</li>
+            <li>JJ BRUTAL RM3.00 | 1-2 Hari</li>
+            <li>JJ KECE RM2.50 | 1 Hari</li>
+            <li>JJ FULL BASS RM3.50 | 1-2 Hari</li>
+            <li>JJ FULL BEAT RM3.50 | 1-2 Hari</li>
+            <li>JJ OLD (THROWBACK) RM2.50 | 1 Hari</li>
+            <li>JJ BIASA RM1.00 | 1 Hari</li>
+            <li>OPENING/INTRO RM3.00 | 1-2 Hari</li>
+        </ul>
+        <div class="info">
+            <p>Setiap edit termasuk:</p>
+            <ul>
+                <li>Kualiti HD</li>
+                <li>Pilihan lagu atau audio sendiri</li>
+                <li>Ada nama, logo, atau intro ikut permintaan</li>
+            </ul>
+        </div>
+        <div class="contact">
+            <p>Order? WhatsApp je:</p>
+            <a href="https://wa.me/601139183035" target="_blank">011-3918-3035</a>
+        </div>
+    </div>
+</body>
+</html>
